@@ -94,12 +94,13 @@ h5 {
   
   .content-blue {
     position: relative;
+    margin-left: 57px;
   }
   .content-image {
     position: absolute;
     top: -30px;
     right: 0px;
-    left: 30px;
+    left: 20px;
     bottom: 50px;
   }
   .content-text{
@@ -114,17 +115,19 @@ h5 {
     display: flex;
     flex-direction: row-reverse;
     padding-bottom: 50px;
+    gap: 80px;
   }
   
   .content-blue1 {
     position: relative;
+    // margin-left: 80px;
   }
   .content-image1 {
     position: absolute;
     top: -30px;
     bottom: 0px;
     right: 0px;
-    left: 739px;
+    left: 731px;
     flex: 0 0 50%;
     
   }
@@ -137,7 +140,7 @@ h5 {
     &-girl{
         position: relative;
         float: right;
-        height: 579px;
+        // height: 579px;
         width: 797px;
         z-index: -1;
     }
@@ -155,6 +158,9 @@ h5 {
         text-align: center;
         
     }
+}
+.squarebox> *{
+    flex-basis: 100% !important;
 }
 .row{
     display: flex;
@@ -192,6 +198,7 @@ h5 {
 
 .nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding-top: 43px;
 
@@ -200,13 +207,16 @@ h5 {
     justify-content: space-between;
     text-decoration: none;
     list-style-type: none;
-    gap: 50px;
+    gap: 97px;
   }
+
+
 
   &-right {
     display: flex;
     align-items: center;
     margin-left: 100px;
+    border-bottom: 1px solid black;
   }
   &-icons {
     margin-left: 200px;
@@ -215,17 +225,31 @@ h5 {
     }
   }
 }
+.nav:first-child{
+    flex-basis: 20%;
+  }
+.nav:nth-child(2){
+    flex-basis: 86%;
+  
+    
+  }
 
 .navbar-list {
   ul {
     list-style-type: none;
+
     display: flex;
     margin-left: 100px;
 
     li {
-      margin: 10px;
+      margin: 0px 15px;
       text-decoration: none;
       color: black;
+      a{
+        text-decoration: none;
+        padding: 10px 15px;
+        margin: 0px 15px;
+      }
 
       .fa-solid{
         margin: 0 15px;
@@ -253,7 +277,7 @@ h5 {
 .card-img{
     img{
         border-radius: 50%;
-        height: 70px;
+        // height: 70px;
         width: 70px;
     }
 }
@@ -263,3 +287,18 @@ h5 {
 // .site-header{
 //     display: flex;
 // }
+
+
+// -----------------------------------testimonials container------------------
+
+
+.testimonials{
+    width: 1267px;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonials-container{
+    background-color: red;
+
+}

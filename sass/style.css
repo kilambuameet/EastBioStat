@@ -26,8 +26,7 @@ body {
 h1,
 h2,
 h3,
-h4,
-p {
+h4 {
   margin-bottom: 3rem;
 }
 
@@ -35,6 +34,7 @@ p {
   font-size: 18px;
   font-weight: 300;
   line-height: 24px;
+  margin-bottom: 1rem;
 }
 
 h1 {
@@ -86,14 +86,18 @@ h5 {
   background-color: grey;
 }
 
+.fa-solid {
+  margin: 0px 6px;
+}
+
 .training {
-  background-color: #F0F9FE;
+  background-color: #f0f9fe;
 }
 
 .content-img {
   position: relative;
   display: flex;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .content-blue {
@@ -114,14 +118,14 @@ h5 {
 }
 
 .resourcing {
-  background-color: #148fd6;
+  background-color: #DAEEF9;
 }
 
 .content-img-reverse {
   position: relative;
   display: flex;
   flex-direction: row-reverse;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   gap: 80px;
 }
 
@@ -139,7 +143,7 @@ h5 {
 }
 
 .section-images {
-  padding-top: 50px;
+  padding: 50px 0px;
 }
 .section-girl {
   position: relative;
@@ -150,20 +154,17 @@ h5 {
 
 .squarebox {
   position: relative;
-  background-color: #1070A7;
+  background-color: #1070a7;
   width: 585px;
   padding: 24px;
-  top: 100px;
+  top: 76px;
   left: 107px;
   z-index: 1;
+  margin-bottom: 100px;
 }
 .squarebox h3 {
   color: white;
   text-align: center;
-}
-
-.squarebox > * {
-  flex-basis: 100% !important;
 }
 
 .row {
@@ -192,7 +193,10 @@ h5 {
   justify-content: space-between;
   text-decoration: none;
   list-style-type: none;
-  gap: 97px;
+  gap: 85px;
+}
+.nav-list h5 {
+  font-family: "Bitter", serif;
 }
 .nav-right {
   display: flex;
@@ -229,9 +233,7 @@ h5 {
   text-decoration: none;
   padding: 10px 15px;
   margin: 0px 15px;
-}
-.navbar-list ul li .fa-solid {
-  margin: 0 15px;
+  color: rgb(44, 53, 57);
 }
 
 .banner {
@@ -254,11 +256,80 @@ h5 {
 }
 
 .testimonials {
-  width: 1267px;
+  background: rgb(218, 238, 249);
+  margin-top: 100px;
+}
+.testimonials-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.testimonials-item p {
+  margin-bottom: 0;
+}
+.testimonials-wrap {
+  border: 2px solid red;
+  flex: 0 0 33.33%;
+  max-width: 392px;
+  background-color: white;
+  margin: 8px;
+}
+.testimonials-card {
+  display: flex;
   margin: auto;
-  text-align: center;
+  padding: 20px;
+}
+.testimonials-text {
+  padding: 20px;
+}
+.testimonials-buttons {
+  display: flex;
+  justify-content: end;
+  padding-bottom: 100px;
 }
 
-.testimonials-container {
-  background-color: red;
+.site-footer {
+  background-color: rgb(8, 56, 84);
+  padding-top: 20px;
+}
+
+.footer-left h5 {
+  padding: 20px 0px;
+}
+.footer-icons :first-child {
+  padding: 0px;
+}
+.footer-icons img {
+  padding: 0px 15px;
+}
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-middle {
+  color: white;
+}
+.footer-middle ul li {
+  list-style: none;
+  padding: 15px 0px;
+}
+.footer-secondlast {
+  color: white;
+}
+.footer-secondlast ul li {
+  list-style: none;
+  padding: 15px 0px;
+}
+.footer-last {
+  color: white;
+}
+.footer-last ul li {
+  list-style: none;
+  padding: 15px 0px;
+}
+.footer-copyright p {
+  color: white;
+  text-align: center;
+  padding-top: 95px;
+  font-size: 12px;
 }/*# sourceMappingURL=style.css.map */
